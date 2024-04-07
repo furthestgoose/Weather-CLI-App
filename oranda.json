@@ -1,18 +1,10 @@
 {
   "project": {
-      "name": "Who's that Pokemon?",
+      "name": "Weather Cli App",
       "version": "1.0.0",
-      "repository": "https://github.com/furthestgoose/Who-s-that-pokemon-"
-  },
-  "build": {
-    "path_prefix": "Who-s-that-pokemon-"
+      "repository": ""
   },
   "styles": {
     "theme": "axodark"
-  },
-  "components": {
-    "changelog":{
-      "rss_feed": false
-    }
   }
 }

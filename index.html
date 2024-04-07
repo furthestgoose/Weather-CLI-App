@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" id="oranda" class="axo">
+  <head>
+    <title>Weather Forecast App</title>
+    
+    
+      <link rel="icon" href="/favicon.ico" />
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Weather Forecast App" />
+    
+    
+    
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+    <link rel="stylesheet" href="/oranda-v0.6.1.css" />
+    
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-body">
+        
+          <div class="repo_banner">
+            <a href="https://github.com/furthestgoose/Weather-CLI-App">
+              <div class="github-icon" aria-hidden="true"></div>
+              Check out our GitHub!
+            </a>
+          </div>
+        
+
+        <main>
+          <header>
+            
+            <h1 class="title">Weather Forecast App</h1>
+            
+          </header>
+
+          
+
+
+    <p>This Dart script fetches weather forecast data from the WeatherAPI and displays it for a specified city.</p>
+<h2>Installation</h2>
+<ol>
+<li>Clone the repository or download the <code>weather.dart</code> file.</li>
+<li>Make sure you have Dart installed on your system. If not, you can download and install it from the <a href="https://dart.dev/get-dart" rel="noopener noreferrer">Dart website</a>.</li>
+<li>Install dependencies by running <code>pub get</code> in your terminal within the directory containing the <code>weather.dart</code> file.</li>
+<li>Create a <code>.env</code> file in the same directory as <code>weather.dart</code> and add your <a href="https://www.weatherapi.com/" rel="noopener noreferrer">WeatherAPI.com</a> key as follows:</li>
+</ol>
+<pre style="background-color:#263238;"><span style="color:#eeffff;">API_KEY=your_weather_api_key
+</span></pre>
+
+<h2>Usage</h2>
+<p>Run the script using the Dart VM with the following command:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">dart weather.dart </span><span style="color:#89ddff;">&lt;</span><span style="color:#82aaff;">city</span><span style="color:#89ddff;">&gt; &lt;</span><span style="color:#82aaff;">unit</span><span style="color:#89ddff;">&gt; </span><span style="font-style:italic;color:#c792ea;">[</span><span style="color:#82aaff;">days</span><span style="font-style:italic;color:#c792ea;">]
+</span></pre>
+
+<p>Replace <code>&lt;city&gt;</code> with the name of the city for which you want to fetch the weather forecast.</p>
+<p>Replace <code>&lt;unit&gt;</code> with either 'c' for Celsius or 'f' for Fahrenheit to specify the temperature unit.</p>
+<p><code>[days]</code> is an optional argument representing the number of days for which you want to retrieve the forecast. If not provided, the default is 1.</p>
+<p>Example:</p>
+<pre style="background-color:#263238;"><span style="color:#82aaff;">dart weather.dart </span><span style="color:#89ddff;">"</span><span style="color:#c3e88d;">New York</span><span style="color:#89ddff;">"</span><span style="color:#82aaff;"> c 3
+</span></pre>
+
+<p>This will fetch the weather forecast for New York in Celsius for the next 3 days.</p>
+<h2>Dependencies</h2>
+<ul>
+<li><code>http</code>: A package for making HTTP requests.</li>
+<li><code>dotenv</code>: A package for loading environment variables from a <code>.env</code> file.</li>
+</ul>
+<h2>License</h2>
+<p>This project is licensed under the <a href="https://github.com/furthestgoose/Weather-CLI-App/blob/main/LICENSE" rel="noopener noreferrer">MIT License</a></p>
+
+
+
+        </main>
+      </div>
+
+      <footer>
+        
+          <a href="https://github.com/furthestgoose/Weather-CLI-App"><div class="github-icon" aria-hidden="true"></div></a>
+        
+        <span>
+          Weather Forecast App
+        </span>
+      </footer>
+    </div>
+
+    
+    
+
+    
+
+
+  </body>
+</html>

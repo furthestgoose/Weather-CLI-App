@@ -1,0 +1,12 @@
+name: weather_app
+description: A command-line app to fetch weather data using the Open-Meteo API.
+version: 1.0.0
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  http: ^0.13.6
+  dotenv: ^4.2.0
+
+assets:
+  - .env

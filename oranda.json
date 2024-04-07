@@ -1,0 +1,10 @@
+{
+  "project": {
+      "name": "Weather Cli App",
+      "version": "1.0.0",
+      "repository": ""
+  },
+  "styles": {
+    "theme": "axodark"
+  }
+}

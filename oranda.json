@@ -1,10 +1,13 @@
 {
   "project": {
-      "name": "Weather Cli App",
+      "name": "Weather Forecast App",
       "version": "1.0.0",
-      "repository": ""
+      "repository": "https://github.com/furthestgoose/Weather-CLI-App"
   },
   "styles": {
-    "theme": "axodark"
+    "theme": "axolight"
+  },
+  "components": {
+    "changelog": false
   }
 }

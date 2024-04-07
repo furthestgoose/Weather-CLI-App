@@ -1,4 +1,3 @@
-# Weather Forecast App
 
 This Dart script fetches weather forecast data from the WeatherAPI and displays it for a specified city.
 
@@ -7,7 +6,7 @@ This Dart script fetches weather forecast data from the WeatherAPI and displays 
 1. Clone the repository or download the `weather.dart` file.
 2. Make sure you have Dart installed on your system. If not, you can download and install it from the [Dart website](https://dart.dev/get-dart).
 3. Install dependencies by running `pub get` in your terminal within the directory containing the `weather.dart` file.
-4. Create a `.env` file in the same directory as `weather.dart` and add your WeatherAPI key as follows:
+4. Create a `.env` file in the same directory as `weather.dart` and add your [WeatherAPI.com](https://www.weatherapi.com/) key as follows:
 ```
 API_KEY=your_weather_api_key
 ```
@@ -38,4 +37,4 @@ This will fetch the weather forecast for New York in Celsius for the next 3 days
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/furthestgoose/Weather-CLI-App/blob/main/LICENSE)for details.
+This project is licensed under the [MIT License](https://github.com/furthestgoose/Weather-CLI-App/blob/main/LICENSE)

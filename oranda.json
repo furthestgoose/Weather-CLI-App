@@ -1,0 +1,18 @@
+{
+  "project": {
+      "name": "Who's that Pokemon?",
+      "version": "1.0.0",
+      "repository": "https://github.com/furthestgoose/Who-s-that-pokemon-"
+  },
+  "build": {
+    "path_prefix": "Who-s-that-pokemon-"
+  },
+  "styles": {
+    "theme": "axodark"
+  },
+  "components": {
+    "changelog":{
+      "rss_feed": false
+    }
+  }
+}
